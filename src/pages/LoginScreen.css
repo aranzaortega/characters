@@ -1,0 +1,8 @@
+body {
+    height: 500px;
+    background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 10rem;
+  }
