@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../components/Card'
 import { Characters } from '../models/Characters'
 
 const CategoryScreen1 = () => {
@@ -8,7 +9,11 @@ const CategoryScreen1 = () => {
     <div className='container mt-3'>
       <h1>Earth</h1>
       <hr/>
-      {earth.map(character => <h1>{character.id}</h1>)}
+      <div className='row'>
+        {earth.map((character) => (
+          <Card key={character.id} {...character}/>
+        ))}
+      </div>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import CategoryScreen1 from '../pages/CategoryScreen1';
 import CategoryScreen2 from '../pages/CategoryScreen2';
 import SearchScreen from '../pages/SearchScreen';
 import NavBar from '../components/NavBar';
+import CharacterScreen from '../pages/CharacterScreen';
 
 const App = () => {
   return <>
@@ -12,6 +13,7 @@ const App = () => {
       <Route exact path='/earth' component={CategoryScreen1}/>
       <Route exact path='/mars' component={CategoryScreen2}/>
       <Route exact path='/search' component={SearchScreen}/>
+      <Route exact path='/character/:id' component={CharacterScreen}/>
       {/* <Redirect to='/search'/> */}
     </Switch>
   </>;
