@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router';
+import { useLocation } from 'react-router-dom';
 import queryString from 'query-string';
 import { Characters } from '../models/Characters';
 import Card from '../components/Card';

@@ -18,9 +18,9 @@ export const Characters = [
     type: "mars",
   },
   {
-    id: "bobbie",
-    name: "Bobbie Draper",
-    description: "was a member and Gunnery Sergeant of the Force Recon group (Special Forces) of the Martian Marine Corps (MMC). She was stationed on the MCRN Scirocco and Xuesen throughout her career. For the better part of her life, she was a fiercely nationalistic Martian dedicated to the Martian dream of terraforming Mars.",
+    id: "alex",
+    name: "Alex Kamal",
+    description: "a veteran navy pilot originating from Mars. Having undergone military training, he was one of the best and most precise pilots in the Sol system.",
     type: "mars",
   },
 ];
