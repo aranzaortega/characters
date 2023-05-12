@@ -22,19 +22,24 @@ const NavBar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav me-auto mt-2 mt-lg-0">
                 <li className="nav-item">
-                <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/earth' href="#">
-                    Earth
-                </NavLink>
+                    <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/home' href="#">
+                        Home
+                    </NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/mars' href="#">
-                    Mars
-                </NavLink>
+                    <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/earth' href="#">
+                        Earth
+                    </NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/search' href="#">
-                    Search
-                </NavLink>
+                    <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/mars' href="#">
+                        Mars
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink activeClassName='active text-white' className="nav-link" aria-current='page' to='/search' href="#">
+                        Search
+                    </NavLink>
                 </li>
             </ul>
             <div className='d-flex'>

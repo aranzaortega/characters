@@ -46,7 +46,7 @@ const SearchScreen = ({ history }) => {
         <hr/>
         <form className='row align-items-center justify-content-md-center' onSubmit={handleSubmit}>
           <div className='col-auto'><label className='col-form-label'>Find your character by name: </label></div>
-          <div className='col-9'><input placeholder='Example: James Holden' type='text'
+          <div className='col-8'><input placeholder='Example: James Holden' type='text'
             className='form-control' autoComplete='off' value={inputValue} onChange={handleChange}/></div>
           <div className='col-auto'><button type='submit' className='btn btn-info'>Search</button></div>
         </form>

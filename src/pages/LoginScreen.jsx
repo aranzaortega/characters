@@ -16,8 +16,9 @@ const LoginScreen = () => {
   return (
   <div className='container mt-5 text-center' >
     <img src='/assets/logo.png' alt='logo'/>
-    <h1 className='my-3'>Login screen</h1>
-    <button className='btn btn-primary' onClick={handleLogin}>Login</button>
+    <h2>Meet The Expanse Series Characters</h2>
+    <p>Login to find out everything</p>
+    <button className='btn btn-primary m-5' onClick={handleLogin}>Login</button>
   </div>
   )};
 
