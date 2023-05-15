@@ -1,4 +1,5 @@
 import React from 'react'
+import CategoryCard from '../components/CategoryCard'
 
 const HomeScreen = () => {
   return (
@@ -9,30 +10,9 @@ const HomeScreen = () => {
       </div>
       <div className='container my-5'>
         <div className='row'>
-          <div className='col-4 p-6'>
-            <div className='card bg-dark text-white'>
-              <img src='/assets/mars.png' alt='mars' style={{ width: '100%', height: '20vw', objectFit: 'cover', opacity: '0.5' }}/>
-              <div class='card-img-overlay' >
-                <h4 class='card-title position-absolute top-50 start-50 translate-middle'>Mars</h4>
-              </div>
-            </div>
-          </div>
-          <div className='col-4 p-6'>
-            <div className='card bg-dark text-white'>
-              <img src='/assets/earth.png' alt='earth' style={{ width: '100%', height: '20vw', objectFit: 'cover', opacity: '0.5' }}/>
-              <div class='card-img-overlay'>
-                <h4 class='card-title position-absolute top-50 start-50 translate-middle'>Earth</h4>
-              </div>
-            </div>
-          </div>
-          <div className='col-4 p-6'>
-            <div className='card bg-dark text-white'>
-              <img src='/assets/characters.jpg' alt='characters' style={{ width: '100%', height: '20vw', objectFit: 'cover', opacity: '0.5' }}/>
-              <div class='card-img-overlay'>
-                <h4 class='card-title position-absolute top-50 start-50 translate-middle'>Search</h4>
-              </div>
-            </div>
-          </div>
+          <CategoryCard category={'mars'}/>
+          <CategoryCard category={'earth'}/>
+          <CategoryCard category={'search'}/>
         </div>
       </div>
     </div>

@@ -23,4 +23,16 @@ export const Characters = [
     description: "a veteran navy pilot originating from Mars. Having undergone military training, he was one of the best and most precise pilots in the Sol system.",
     type: "mars",
   },
+  {
+    id: "jules",
+    name: "Jules-Pierre Mao",
+    description: "The owner of Mao-Kwikowski Mercantile as well as its subsidiary Protogen. One of his daughters, Julie Mao, was affiliated with the OPA.",
+    type: "earth",
+  },
+  {
+    id: "david",
+    name: "David Draper",
+    description: "While looking for her own apartment on Mars, Bobbie stays with David and his father in their home. Bobbie finds out that David has been cooking an illicit drug for Leelee. Bobbie gets Davis out of working for Leelee, but loses her job at the Martian Congressional Republic Navy salvage yard because it.",
+    type: "mars",
+  },
 ];
